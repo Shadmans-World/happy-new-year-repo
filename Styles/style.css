@@ -1,8 +1,12 @@
+
+
+body{
+    font-family: "Merriweather", serif;
+}
+
 main{
     width: 1320px;
     margin: 50px auto;
-    
-    
 }
 /* banner style */
 .banner{
@@ -57,7 +61,7 @@ margin-top: 16px;
 
 .deal-detail>h1{
     color: rgb(255, 0, 0);
-font-family: Inter;
+/* font-family: M; */
 font-size: 88px;
 font-weight: 700;
 line-height: 107px;
