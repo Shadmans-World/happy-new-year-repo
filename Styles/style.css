@@ -378,3 +378,72 @@ margin-bottom: 64px;
     margin-bottom: 200px;
     
 }
+
+/* new year item style */
+
+.new-year-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+}
+
+.new-year-item-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    
+}
+
+.new-year-item-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   /* margin-top: 48px; */
+
+}
+.new-year-item-list-container img{
+    margin-right: 24px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.new-year-item-title h5{
+    color: rgb(255, 0, 0);
+/* font-family: Inter; */
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+margin-top: 120px;
+}
+
+.new-year-item-title h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.new-year-item-title p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-year-item-title-p{
+    width: 896px;
+}
