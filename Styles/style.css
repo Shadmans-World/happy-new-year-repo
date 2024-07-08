@@ -447,3 +447,75 @@ margin-top: 120px;
 .new-year-item-title-p{
     width: 896px;
 }
+
+
+/* Subscribe-items */
+
+.subscribe{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+height: 616px;
+
+
+}
+
+.subscribe-items{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 212px 200px 212px;
+    width: 896px;
+    height: 336px;
+    
+}
+
+.form input[type="email"]{
+    padding: 25px 267px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.form input[type=submit]{
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+
+/* .subscribe-item-2{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+} */
+ .subscribe-item-1 h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 46.25px auto 22px auto;
+ }
+
+ .subscribe-item-1 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+ }
+
+ form input{
+    border: none;
+ }
