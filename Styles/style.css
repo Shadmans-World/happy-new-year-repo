@@ -1,220 +1,380 @@
-
-
-body{
-    font-family: "Merriweather", serif;
+body {
+  font-family: "Merriweather", serif;
 }
 
-main{
-    width: 1320px;
-    margin: 50px auto;
+main {
+  width: 1320px;
+  margin: 50px auto;
 }
 /* banner style */
-.banner{
-    
-    text-align: center;
-    
-    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
-    background-size: cover;
-    height: 600px;
-    width: 100%;
+.banner {
+  text-align: center;
+
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/Banner\ Image.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
 }
-.banner-content{
-    padding: 177px 344px;
+.banner-content {
+  padding: 177px 344px;
 }
 
-.banner-title{
-    color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 32px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 16px;
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-.banner-description{
-    color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 95px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 16px;
+.banner-description {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
 }
 
 /* deal styles */
 
-.deal-details{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+.deal-details {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.deal-details img{
-    width:802px;
-    height: 500px;
-    margin-bottom: 120px;
+.deal-details img {
+  width: 802px;
+  height: 500px;
+  margin-bottom: 120px;
 }
 
-.deal-detail>h1{
-    color: rgb(255, 0, 0);
-/* font-family: M; */
-font-size: 88px;
-font-weight: 700;
-line-height: 107px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 120px;
-margin-bottom: 48px;
+.deal-detail > h1 {
+  color: rgb(255, 0, 0);
+  /* font-family: M; */
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 48px;
 }
 
-.deal-detail>h6{
+.deal-detail > h6 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.deal-detail > h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* welcome-banner */
+
+.wc-banner {
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.wc-banner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 39.17px;
+  padding-left: 126px;
+  padding-right: 109px;
+  margin-top: 68px;
+  padding-bottom: 68px;
+}
+.wc-banner-content {
+  width: 50%;
+}
+
+.wc-banner-content img {
+  width: 350px;
+  height: 464px;
+  margin-top: 68.12px;
+}
+
+.wc-banner-content-1-width {
+  width: 697px;
+}
+
+wc-banner-content-2-width {
+  width: 350px;
+}
+.wc-banner-title-head {
+  /* width: 642px;
+    height: 176px; */
+  /* margin-right: 94px; */
+}
+.wc-banner-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-top: 126px;
+  margin-bottom: 24px;
+}
+
+.wc-banner-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+  width: 697px;
+}
+
+.wc-banner-join {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+/* Offer Style Start */
+.offer-place {
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 100px 385px 110px 386px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.place-details h6 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.place-details h6 span {
+  color: red;
+}
+.offer-btn button {
+  border-radius: 8px;
+  width: 167px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  background: rgb(255, 0, 0);
+}
+
+/* new offer detail style */
+
+.new-offer-details {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.new-offer-img-1 {
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 49px;
+}
+.best-offer{
     color: rgb(255, 0, 0);
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
-text-align: center;
-margin-top: 48px;
-margin-bottom: 16px;
+text-align: left;
 }
 
-.deal-detail>h3{
+.coming-soon{
     color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+
+margin-top: 16px;
+margin-bottom: 22px;
+}
+
+.new-offer-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.offer-detail-2-title{
+    color: rgb(255, 0, 0);
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
 letter-spacing: 0%;
-text-align: center;
-margin-top: 16px;
+text-align: left;
+margin-top: 112px;
+margin-bottom: 16px;
 }
 
-/* welcome-banner */
+.m-r{
+    margin-right: 70px;
+}
 
-.wc-banner{
-    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png) ;
+.m-r-2{
+    margin-right: 118px;
+}
+
+.new-offer{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.new-offer-img-2{
+    margin-top: 47px;
+}
+
+
+/* holiday style started */
+
+.holiday-sale{
+    text-align: center;
+    align-items: center;
+    /* margin-left: 126px;
+    margin-right: 126px; */
+    height: 986px;
+    display: flex;
+    flex-direction: column;
     width: 1320px;
-    height: 600px;
-    
+    margin-bottom: 120px;
 }
 
-.wc-banner-container{
+.holiday-q{
+    color: rgb(7, 2, 17);
+/* font-family: Inter; */
+font-family: Merriweather;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+/* text-align: left; */
+margin-bottom: 16px;
+}
+
+.Holiday-title{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+margin-top: 16px;
+margin-bottom: 28px;
+/* text-align: center; */
+}
+
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+margin-bottom: 64px;
+/* text-align: center; */
+}
+
+.holiday-sale-img{
+    height: 662px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 100%;
+}
+.holiday-sale-img-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    
-    gap: 39.17px;
-    padding-left:126px ;
-    padding-right: 109px;
-    margin-top: 68px;
-    padding-bottom: 68px;
-}
-.wc-banner-content{
-    width: 50%;
-
-}
-
-.wc-banner-content img{
-    width: 350px;
-    height: 464px;
-    margin-top: 68.12px;
-}
-
-.wc-banner-content-1-width{
-    width: 697px;
-}
-
-wc-banner-content-2-width{
-    width: 350px;
-}
-.wc-banner-title-head{
-    /* width: 642px;
-    height: 176px; */
-    /* margin-right: 94px; */
-}
-.wc-banner-title{
-    color: rgb(255, 255, 255);
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 11%;
-    text-align: left;
-    margin-top: 126px;
-    margin-bottom: 24px;
-}
-
-.wc-banner-description{
-    color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 48px;
-width: 697px;
-}
-
-.wc-banner-join{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-margin-left: 30px;
-}
-
-
-/* Offer Style Start */
-.offer-place{
-    display: flex;
     text-align: center;
-    /* align-items: center; */
-    flex-direction: column;
-    padding:100px 385px 110px 386px;
-    border-radius: 16px;
-background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-}
-
-.place-details h6{
-    font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-line-height: 0px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-}
-
-.place-details h6 span{
-    color:red;
     
 }
-.offer-btn button{
-    border-radius: 8px;
-    width: 167px;
-    height: 56px;
-    color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-border: none;
-cursor: pointer;
+.holiday-sale-img-content-1{
+    width: 50%;
+}
 
-background: rgb(255, 0, 0);
+.holiday-sale-img-content-2{
+    width: 50%;
+    margin-bottom: 200px;
+    
 }
